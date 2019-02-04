@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 517831973}
   - component: {fileID: 517831972}
   - component: {fileID: 517831974}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Air Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 588773646}
   - component: {fileID: 588773645}
   - component: {fileID: 588773649}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Earth Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1060441877}
   - component: {fileID: 1060441876}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Space
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 1265684858}
   - component: {fileID: 1265684857}
   - component: {fileID: 1265684856}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -738,7 +738,7 @@ GameObject:
   - component: {fileID: 1513172473}
   - component: {fileID: 1513172480}
   - component: {fileID: 1513172479}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: PlayerCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -916,7 +916,7 @@ GameObject:
   - component: {fileID: 1712695527}
   - component: {fileID: 1712695526}
   - component: {fileID: 1712695528}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Fire enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 1844537297}
   - component: {fileID: 1844537296}
   - component: {fileID: 1844537298}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Water Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
