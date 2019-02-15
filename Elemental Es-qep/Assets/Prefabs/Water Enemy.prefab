@@ -98,13 +98,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7421181539167214765, guid: 861e343a18866534993644726a9ea22d, type: 3}
+  - {fileID: 7435890533914146749, guid: a7a127e75a85e8243a440d9ad94cdce4, type: 3}
+  - {fileID: 982095161912279707, guid: e25e8235bed349249b9e88d0ccf852ba, type: 3}
+  - {fileID: 2594557699551503867, guid: 44e54b5a9d011b94189edcc265f3485b, type: 3}
+  - {fileID: 4857092217618583444, guid: ce18e2342535c7049841d8d39c688bb4, type: 3}
+  - {fileID: 4733113685214198911, guid: a76fa963f39843444bfd0a6656e6089d, type: 3}
+  - {fileID: 23549151006257818, guid: 1894a468f021d034ea081cb64e2115e4, type: 3}
 --- !u!114 &2409631107855272652
 MonoBehaviour:
   m_ObjectHideFlags: 0
