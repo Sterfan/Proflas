@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class KamikazeEnemyAi : MonoBehaviour
 {
-    public float moveSpeed= 4f;
+    public float moveSpeed= 2f;
     
-    public Transform player;
+    private Transform player;
 
     void Start()
     {

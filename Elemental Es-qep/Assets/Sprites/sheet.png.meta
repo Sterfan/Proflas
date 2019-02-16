@@ -9,6 +9,9 @@ TextureImporter:
     21300008: Air Enemy
     21300010: sheet_0
     21300012: bullet
+    21300014: Bullet 2
+    21300016: bullet 3
+    21300018: bullet 4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -226,6 +229,66 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6d331d7b11e22094daf9b26a6cef283b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 2
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 894
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0064d104f603e14881ced241b3f3b38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet 3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 930
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7216951472ff13347bccfdeff77b8aef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet 4
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 8
+        width: 3
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f8f9a5c1abc58449ccee86280d008e
       vertices: []
       indices: 
       edges: []

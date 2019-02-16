@@ -6,7 +6,7 @@ public class WaterMovement : MonoBehaviour
 {
     private float moveSpeed = 2f;
     private float waitTime = 2f;
-    private float startWaitTime;
+    private float startWaitTime = 0f;
 
     public Transform[] moveSpots;
     private int randomizedSpot;

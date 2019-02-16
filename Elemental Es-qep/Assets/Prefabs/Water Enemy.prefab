@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158749ef3a2282f47ad976ad3e35d8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bulletprefab: {fileID: 8685160831882738057, guid: 16f7912ae6764f44b9e0cc230814882f,
+  Bulletprefab: {fileID: 673910068153513638, guid: 84fc0b0a7baef5b4fbe5f3ada8fdf054,
     type: 3}
 --- !u!60 &2409631107855272650
 PolygonCollider2D:

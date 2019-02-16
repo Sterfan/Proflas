@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WindMovement : MonoBehaviour
 {
-    public float moveSpeed =4;
+    public float moveSpeed =3;
     public float stopDistance =3;
     public float backDistance = 2;
 

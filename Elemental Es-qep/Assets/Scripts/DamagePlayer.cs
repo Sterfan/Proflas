@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DamagePlayer : MonoBehaviour
 {
-    int health = 4;
+    int health = 8;
 
     private void OnTriggerEnter2D()
     {
@@ -18,10 +18,14 @@ public class DamagePlayer : MonoBehaviour
         {
             Debug.Log("Player is Dead");
             Die();
+
+            
         }
     }
     void Die()
     {
+       
         Destroy(gameObject);
+        Application.LoadLevel(Application.loadedLevel);
     }
 }
