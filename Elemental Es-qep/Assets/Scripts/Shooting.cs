@@ -4,40 +4,38 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public GameObject Bulletprefab, Bulletprefab2;
+    public GameObject[] bullets;
 
     private float ShootingDelay = 0.35f;
-    private float cooldownTimer = 1;
-    public static int whichWeapon = 1;
+    private float cooldownTimer = 0.5f;
+    public  int currentBullet = 0;
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            ++currentBullet;
+
+            if (currentBullet+1 > bullets.Length)
+            {
+                currentBullet = 0;
+            }
+        }
+        
+
         cooldownTimer -= Time.deltaTime;
 
         if (Input.GetButton("Fire1") && cooldownTimer <= 0) 
         {
             cooldownTimer = ShootingDelay;
             Debug.Log("Pew!");
+            
+            Instantiate(bullets[currentBullet], transform.position, transform.rotation);
 
-            if (Input.GetButton ("X") && whichWeapon == 1)
-            {
-                GameObject bullet = (GameObject)Instantiate(Bulletprefab, transform.position, transform.rotation);
-            }
-            else
-            {
-                GameObject bullet2 = (GameObject)Instantiate(Bulletprefab2, transform.position, transform.rotation);
-            }
         }
 
     }
-     void changeWeapon()
-    {
-        if (whichWeapon == 1)
-            whichWeapon = 2;
-
-        else
-            whichWeapon = 1;
-    }
+    
 
 
 }

@@ -11,8 +11,8 @@ public class Boundaries : MonoBehaviour
 
     void Start()
     {
-        playerWidth = transform.localScale.x / -2;
-        playerHeight = transform.localScale.y / -2;
+        playerWidth = transform.localScale.x / -0.19f;
+        playerHeight = transform.localScale.y / -0.19f;
         screenboundary = new Vector2(Camera.main.aspect * Camera.main.orthographicSize + playerWidth, Camera.main.orthographicSize + playerHeight);
     }
 

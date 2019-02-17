@@ -5,7 +5,7 @@ using UnityEngine;
 public class DeleteBullet : MonoBehaviour
 {
 
-    float deleteTime = 2.0f;
+    float deleteTime = 1.8f;
     
     void Start()
     {

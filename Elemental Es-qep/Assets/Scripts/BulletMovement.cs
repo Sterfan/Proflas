@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletMovement : MonoBehaviour
 {
-    float moveSpeed = 8f;
+    float moveSpeed = 9f;
      void Update()
     {
         Vector3 pos = transform.position;

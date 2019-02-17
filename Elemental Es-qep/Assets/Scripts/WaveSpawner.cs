@@ -86,7 +86,6 @@ public class WaveSpawner : MonoBehaviour
             nextWave++;
         }
 
-        nextWave++;
     }
 
     bool EnemyAlive()
