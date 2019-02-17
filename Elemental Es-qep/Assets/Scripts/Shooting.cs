@@ -19,10 +19,24 @@ public class Shooting : MonoBehaviour
             cooldownTimer = ShootingDelay;
             Debug.Log("Pew!");
 
-            GameObject bullet = (GameObject)Instantiate(Bulletprefab, transform.position, transform.rotation);
-            
+            if (Input.GetButton ("X") && whichWeapon == 1)
+            {
+                GameObject bullet = (GameObject)Instantiate(Bulletprefab, transform.position, transform.rotation);
+            }
+            else
+            {
+                GameObject bullet2 = (GameObject)Instantiate(Bulletprefab2, transform.position, transform.rotation);
+            }
         }
 
+    }
+     void changeWeapon()
+    {
+        if (whichWeapon == 1)
+            whichWeapon = 2;
+
+        else
+            whichWeapon = 1;
     }
 
 

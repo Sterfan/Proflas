@@ -240,7 +240,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.6447806
+  orthographic size: 6.9578695
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -463,7 +463,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &766529717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -614,7 +614,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &855405017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -667,7 +667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &912226291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2300,6 +2300,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7532393906774372655, guid: 36b19cd676dd7c24992462daf5a7d2cc,
+        type: 3}
+      propertyPath: Bulletprefab2
+      value: 
+      objectReference: {fileID: 6605548369827352722, guid: 14b5c54d3336f4c4a825895c3595fa52,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36b19cd676dd7c24992462daf5a7d2cc, type: 3}
 --- !u!1001 &7727211321808270053
