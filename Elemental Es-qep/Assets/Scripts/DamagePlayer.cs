@@ -5,7 +5,7 @@ using UnityEngine;
 public class DamagePlayer : MonoBehaviour
 {
     int health = 8;
-
+    
     private void OnTriggerEnter2D()
     {
         Debug.Log("Player Health -1");

@@ -94,12 +94,24 @@ public class WaveSpawner : MonoBehaviour
         if (enemySearchCountdown <= 0f)
         {
             enemySearchCountdown = 1f;
-            if (GameObject.FindGameObjectWithTag("enemy") == null)
+             
+            if (GameObject.FindGameObjectWithTag("FireEnemy") || GameObject.FindGameObjectWithTag("EarthEnemy") || GameObject.FindGameObjectWithTag("WindEnemy") || GameObject.FindGameObjectWithTag("WaterEnemy") == null)
             {
                 return false;
             }
-
-            
+           // else if (GameObject.FindGameObjectWithTag("EarthEnemy") == null)
+           // {
+           //     return false;
+           // }
+           //else if (GameObject.FindGameObjectWithTag("windEnemy") == null)
+           // {
+           //     return false;
+           // }
+           // else if (GameObject.FindGameObjectWithTag("WaterEnemy") == null)
+           // {
+           //     return false;
+           // }
+           
         }
         return true;
     }

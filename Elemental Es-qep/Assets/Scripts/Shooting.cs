@@ -6,9 +6,10 @@ public class Shooting : MonoBehaviour
 {
     public GameObject[] bullets;
 
-    private float ShootingDelay = 0.35f;
+    private float shootingDelay = 0.35f;
     private float cooldownTimer = 0.5f;
     public  int currentBullet = 0;
+    
 
     void Update()
     {
@@ -27,15 +28,11 @@ public class Shooting : MonoBehaviour
 
         if (Input.GetButton("Fire1") && cooldownTimer <= 0) 
         {
-            cooldownTimer = ShootingDelay;
+            cooldownTimer = shootingDelay;
             Debug.Log("Pew!");
             
             Instantiate(bullets[currentBullet], transform.position, transform.rotation);
 
         }
-
     }
-    
-
-
 }

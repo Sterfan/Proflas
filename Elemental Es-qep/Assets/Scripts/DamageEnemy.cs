@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DamageEnemy : MonoBehaviour
 {
-    int health = 2;
+    int health = 8;
 
     private void OnTriggerEnter2D()
     {

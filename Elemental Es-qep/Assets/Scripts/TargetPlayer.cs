@@ -5,7 +5,7 @@ using UnityEngine;
 public class TargetPlayer : MonoBehaviour
 {
     Transform player;
-    float roationspeed = 100f;
+    float roationspeed = 160f;
 
     void Start()
     {

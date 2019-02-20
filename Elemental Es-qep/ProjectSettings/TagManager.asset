@@ -7,6 +7,20 @@ TagManager:
   - player
   - Enemy
   - enemy
+  - playerbullet
+  - Earthbullet
+  - Firebullet
+  - Waterbullet
+  - Windbullet
+  - FireEnemy
+  - EarthEnemy
+  - WaterEnemy
+  - Boss
+  - WindEnemy
+  - WindEnemybullet
+  - FireEnemybullet
+  - EarthEnemybullet
+  - WaterEnemybullet
   layers:
   - Default
   - TransparentFX
