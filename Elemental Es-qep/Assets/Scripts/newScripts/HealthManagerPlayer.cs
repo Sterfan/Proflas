@@ -23,6 +23,7 @@ public class HealthManagerPlayer : MonoBehaviour
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
+            Application.LoadLevel(Application.loadedLevel);
         }
     }
      void OnTriggerEnter2D()

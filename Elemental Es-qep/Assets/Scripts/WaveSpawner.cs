@@ -25,7 +25,7 @@ public class WaveSpawner : MonoBehaviour
     public float waveDelay = 6f;
     public float waveCountdown;
 
-    private float enemySearchCountdown = 1f;
+    private float enemySearchCountdown = 2f;
 
     private SpawnState state = SpawnState.Counting;
 
