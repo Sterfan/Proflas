@@ -461,7 +461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766529716}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.85, y: 3.89, z: -0.062326983}
+  m_LocalPosition: {x: -0.85, y: 3.41, z: -0.062326983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 774465950}
@@ -510,7 +510,7 @@ MonoBehaviour:
     rate: 1
   spawnPoints:
   - {fileID: 405935234}
-  waveDelay: 15
+  waveDelay: 30
   waveCountdown: 0
 --- !u!4 &855405018
 Transform:
@@ -563,7 +563,7 @@ MonoBehaviour:
     rate: 1
   spawnPoints:
   - {fileID: 677403014}
-  waveDelay: 10
+  waveDelay: 25
   waveCountdown: 0
 --- !u!4 &912226292
 Transform:
@@ -573,7 +573,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912226290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.53, y: 5.61, z: -0.062326983}
+  m_LocalPosition: {x: 5.16, y: 4.68, z: -0.062326983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 677403014}
@@ -754,7 +754,7 @@ MonoBehaviour:
   - name: Wind enemy
     enemy: {fileID: 4895113962803132703, guid: 534f5d90e2208504eb7792214a808c7c, type: 3}
     amount: 1
-    rate: 1
+    rate: 0
   spawnPoints:
   - {fileID: 399019715}
   waveDelay: 6
@@ -1021,11 +1021,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1036183353}
     m_Modifications:
-    - target: {fileID: 4733113685214198910, guid: a76fa963f39843444bfd0a6656e6089d,
-        type: 3}
-      propertyPath: m_Name
-      value: MoveSpot (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 4733113685214198911, guid: a76fa963f39843444bfd0a6656e6089d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1080,6 +1075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733113685214198910, guid: a76fa963f39843444bfd0a6656e6089d,
+        type: 3}
+      propertyPath: m_Name
+      value: MoveSpot (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76fa963f39843444bfd0a6656e6089d, type: 3}
@@ -1479,6 +1479,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939447422068820007, guid: 36b19cd676dd7c24992462daf5a7d2cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7532393906774372649, guid: 36b19cd676dd7c24992462daf5a7d2cc, type: 3}
