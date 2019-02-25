@@ -5,8 +5,8 @@ using UnityEngine;
 public class ShootingEnemy : MonoBehaviour
 {
     public GameObject Bulletprefab;
-    private float ShootingDelay = 1f;
-    private float cooldownTimer = 1.5f;
+    private float ShootingDelay = 2f;
+    private float cooldownTimer = 2.5f;
     void Update()
     {
         cooldownTimer -= Time.deltaTime;

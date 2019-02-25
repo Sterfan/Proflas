@@ -6,9 +6,10 @@ using UnityEngine.UI;
 public class HealthManagerPlayer : MonoBehaviour
 {
 
-    public int maxHealth = 20;
-    public int currentHealth;
+    public float  maxHealth = 20f;
+    public float  currentHealth;
     public Slider healthBar;
+    public GameObject deathAnimation;
 
     void Start()
     {
@@ -23,17 +24,19 @@ public class HealthManagerPlayer : MonoBehaviour
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
+            Instantiate(deathAnimation, transform.position, transform.rotation);
             Application.LoadLevel(Application.loadedLevel);
         }
     }
      void OnTriggerEnter2D()
     {
+        
         Debug.Log("Player Health -1");
 
         currentHealth--;
-        //if (other.gameObject.tag == "Earthbullet")
-        //{
-        //    currentHealth--;
+        //if (other.gameObject.tag != "HP")
+        //{ 
+        //   currentHealth--;
         //}
 
     }

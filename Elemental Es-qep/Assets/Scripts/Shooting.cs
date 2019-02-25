@@ -6,8 +6,8 @@ public class Shooting : MonoBehaviour
 {
     public GameObject[] bullets;
 
-    private float shootingDelay = 0.35f;
-    private float cooldownTimer = 0.5f;
+    private float shootingDelay = 0.55f;
+    private float cooldownTimer = 0.6f;
     public  int currentBullet = 0;
     
 

@@ -8,7 +8,9 @@ public class HPManagerEarthEnemy : MonoBehaviour
     public int maxHealth = 15;
     public int currentHealth;
     public Slider healthBar;
-
+    public GameObject deathAnimation;
+    public float dropRate = 0.15f;
+    public GameObject HPdrop;
     void Start()
     {
         currentHealth = maxHealth;
@@ -21,7 +23,12 @@ public class HPManagerEarthEnemy : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            Instantiate(deathAnimation, transform.position, transform.rotation);
             Destroy(gameObject);
+            if (Random.Range(0, 1) <= dropRate)
+            {
+                GameObject pickupdrop = Instantiate(HPdrop, gameObject.transform.position, Quaternion.identity);
+            }
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
