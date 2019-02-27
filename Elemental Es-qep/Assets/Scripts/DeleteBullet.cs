@@ -12,7 +12,11 @@ public class DeleteBullet : MonoBehaviour
         
     }
 
-    
+    private void OnTriggerEnter2D()
+    {
+        Destroy(gameObject);
+    }
+
     void Update()
     {
         deleteTime -= Time.deltaTime;

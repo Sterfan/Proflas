@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 2344655863402004578}
   - component: {fileID: 6667996088291974394}
   m_Layer: 10
-  m_Name: WindBullet
+  m_Name: Windbullet
   m_TagString: Windbullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
