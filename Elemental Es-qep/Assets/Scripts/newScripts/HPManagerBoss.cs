@@ -17,18 +17,10 @@ public class HPManagerBoss : MonoBehaviour
     }
 
 
-    void Update()
-    {
-        healthBar.value = currentHealth;
-
-        if (currentHealth <= 0)
-        {
-            Destroy(gameObject);
-        }
-    }
+    
     private void OnTriggerEnter2D()
     {
-        currentHealth -= 2;
+        currentHealth--;
         //if (other.gameObject.tag == "Waterbullet")
         //{
         //    currentHealth--;
@@ -38,7 +30,16 @@ public class HPManagerBoss : MonoBehaviour
         //    currentHealth--;
         //}
     }
+    void Update()
+    {
 
+        //healthBar.value = currentHealth;
+
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
     public void TakingDamage(int damagetaken)
     {
         currentHealth -= damagetaken;
