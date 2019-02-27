@@ -143,11 +143,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioFiles:
   - audioName: Tester
-    audioClip: {fileID: 8300000, guid: bd8242690d8624c4182646b790e20b98, type: 3}
+    audioClip: {fileID: 8300000, guid: 4d026715e672bc54885845bf3e4e0bfa, type: 3}
     volume: 1
     source: {fileID: 0}
-    isLooping: 0
-    playOnAwake: 0
+    isLooping: 1
+    playOnAwake: 1
 --- !u!4 &87810354
 Transform:
   m_ObjectHideFlags: 0
@@ -481,7 +481,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &766529717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,7 +540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &855405017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -593,7 +593,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &912226291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,7 +787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1606217992
 MonoBehaviour:
   m_ObjectHideFlags: 0
