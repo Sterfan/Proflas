@@ -56,7 +56,7 @@ public class AudioManager : MonoBehaviour
 
         }
     }
-    public static void PlayMusic(String name)
+    public void Play(string name)
     {
 
         AudioFile s = Array.Find(instance.audioFiles, AudioFile => AudioFile.audioName == name);
@@ -79,7 +79,7 @@ public class AudioManager : MonoBehaviour
 
     }
 
-    public static void StopMusic(String name)
+    public void StopMusic(string name)
     {
 
         AudioFile s = Array.Find(instance.audioFiles, AudioFile => AudioFile.audioName == name);
@@ -102,7 +102,7 @@ public class AudioManager : MonoBehaviour
 
     }
 
-    public static void PauseMusic(String name)
+    public void PauseMusic(string name)
     {
 
         AudioFile s = Array.Find(instance.audioFiles, AudioFile => AudioFile.audioName == name);
@@ -125,7 +125,7 @@ public class AudioManager : MonoBehaviour
 
     }
 
-    public static void UnPauseMusic(String name)
+    public void UnPauseMusic(string name)
     {
 
         AudioFile s = Array.Find(instance.audioFiles, AudioFile => AudioFile.audioName == name);
@@ -148,7 +148,7 @@ public class AudioManager : MonoBehaviour
 
     }
 
-    public static void LowerVolume(String name, float _duration)
+    public void LowerVolume(string name, float _duration)
     {
 
         if (instance.isLowered == false)
