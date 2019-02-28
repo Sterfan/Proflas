@@ -14,6 +14,8 @@ public class DeleteBullet : MonoBehaviour
 
     private void OnTriggerEnter2D()
     {
+        FindObjectOfType<AudioManager>().Play("EarthBulletHit");
+
         Destroy(gameObject);
     }
 
