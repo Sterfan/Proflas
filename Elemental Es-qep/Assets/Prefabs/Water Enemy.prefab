@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2409631107855272650}
   - component: {fileID: 2409631107855272651}
   - component: {fileID: 825554882409132695}
+  - component: {fileID: 7980607837133383209}
   m_Layer: 8
   m_Name: Water Enemy
   m_TagString: WaterEnemy
@@ -123,7 +124,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2409631107855272692}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 158749ef3a2282f47ad976ad3e35d8a2, type: 3}
   m_Name: 
@@ -509,6 +510,20 @@ MonoBehaviour:
   maxHealth: 8
   currentHealth: 0
   healthBar: {fileID: 2976209351537715458}
+--- !u!114 &7980607837133383209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409631107855272692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc730bc798aa33478941bd1a059c1e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bulletprefab: {fileID: 4497368768541924618, guid: 92c7e408f56ee2749a36c4d02981f432,
+    type: 3}
 --- !u!1 &5671451052963182945
 GameObject:
   m_ObjectHideFlags: 0

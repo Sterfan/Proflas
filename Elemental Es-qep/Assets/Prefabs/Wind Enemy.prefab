@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5512288175695622062}
   - component: {fileID: 7770890024355952730}
   - component: {fileID: 7202741858894027781}
+  - component: {fileID: 4123512890636038187}
   m_Layer: 8
   m_Name: Wind Enemy
   m_TagString: WindEnemy
@@ -67,7 +68,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4895113962803132697}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 158749ef3a2282f47ad976ad3e35d8a2, type: 3}
   m_Name: 
@@ -589,6 +590,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 16.41301, y: 13.961948}
   m_EdgeRadius: 0
+--- !u!114 &4123512890636038187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4895113962803132697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58c1a0e686cf5f24b8684d80078ba364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bulletprefab: {fileID: 8027911982009610422, guid: 12fa743144021d948a37490f9d3feabf,
+    type: 3}
 --- !u!1001 &4048493842487886787
 PrefabInstance:
   m_ObjectHideFlags: 0

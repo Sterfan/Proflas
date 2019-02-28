@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8111051785073856807}
   - component: {fileID: 2232580092401482087}
   - component: {fileID: 5704901172473455167}
+  - component: {fileID: 9212179364282747486}
   m_Layer: 8
   m_Name: Fire Enemy
   m_TagString: FireEnemy
@@ -367,7 +368,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8935536816420087942}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 158749ef3a2282f47ad976ad3e35d8a2, type: 3}
   m_Name: 
@@ -389,6 +390,20 @@ MonoBehaviour:
   maxHealth: 10
   currentHealth: 0
   healthBar: {fileID: 6740788633768741538}
+--- !u!114 &9212179364282747486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935536816420087942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc21e21da035c564c87b584d32730bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bulletprefab: {fileID: 8585435442311006460, guid: 33c58f147e94c014db1500825bd35fa0,
+    type: 3}
 --- !u!1001 &8626878932786866935
 PrefabInstance:
   m_ObjectHideFlags: 0
