@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8470535560230996034}
   - component: {fileID: 5181527309385802776}
   - component: {fileID: 1655260946910835946}
+  - component: {fileID: 6500615763221883689}
   m_Layer: 8
   m_Name: Earth Enemy
   m_TagString: EarthEnemy
@@ -105,7 +106,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6276476004803965790}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 158749ef3a2282f47ad976ad3e35d8a2, type: 3}
   m_Name: 
@@ -558,6 +559,20 @@ MonoBehaviour:
     type: 3}
   dropRate: 0.15
   HPdrop: {fileID: 1377815570064674861, guid: 29b89377711d9f34db0af2d264968451, type: 3}
+--- !u!114 &6500615763221883689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6276476004803965790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059001dbca2fa344b93fa6444bb02401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bulletprefab: {fileID: 7512999297264015041, guid: 7abecb3d9d752c24592f0c90a84451e4,
+    type: 3}
 --- !u!1001 &7201732216709980494
 PrefabInstance:
   m_ObjectHideFlags: 0

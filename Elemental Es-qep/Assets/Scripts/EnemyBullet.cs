@@ -13,7 +13,7 @@ public class EnemyBullet : MonoBehaviour
     {
         Player = GameObject.FindGameObjectWithTag("Player").transform;
 
-       
+        
         Target = new Vector2(Player.position.x, Player.position.y);
     }
 
