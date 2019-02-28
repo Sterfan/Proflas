@@ -33,6 +33,43 @@ public class Shooting : MonoBehaviour
             
             Instantiate(bullets[currentBullet], transform.position, transform.rotation);
 
+            if (currentBullet == 0)
+            {
+
+                FindObjectOfType<AudioManager>().Play("FireShotTest1");
+
+            }
+
+            if (currentBullet == 1)
+            {
+
+                FindObjectOfType<AudioManager>().Play("WaterShotTest1");
+
+            }
+
+            if (currentBullet == 2)
+            {
+
+                FindObjectOfType<AudioManager>().Play("RockShotTest1");
+
+            }
+
+            if (currentBullet == 3)
+            {
+
+                FindObjectOfType<AudioManager>().Play("WindShotTest1");
+
+            }
         }
     }
+
+    //private static void PlayAudio()
+    //{
+
+    //    GameObject audManager = GameObject.Find("AudioManager");
+    //    AudioManager audManager = audManager.GetComponent<AudioManager>();
+    //    FindObjectOfType<AudioManager>().Play("FireShotTest1");
+
+    //}
+
 }
